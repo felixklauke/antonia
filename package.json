@@ -1,0 +1,28 @@
+{
+  "name": "antonia",
+  "version": "1.0.0",
+  "description": "CSS & JavaScript library for designing simple but effective websites. A collection mainly dominated by Font Awesome, Google Fonts and Bootstrap Grid.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klauke-enterprises/antonia.git"
+  },
+  "keywords": [
+    "fontawesome",
+    "googlefonts",
+    "bootstrap",
+    "grid",
+    "css",
+    "library",
+    "klauke"
+  ],
+  "author": "Felix Klauke <info@felix-klauke.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/klauke-enterprises/antonia/issues"
+  },
+  "homepage": "https://github.com/klauke-enterprises/antonia#readme"
+}
