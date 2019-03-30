@@ -1,0 +1,21 @@
+####################
+### NodeJS & NPM ###
+####################
+node_modules
+src
+
+###########
+### Git ###
+###########
+.gitignore
+
+###############
+### Project ###
+###############
+CONTRIBUTING.md
+CODE_OF_CONDUCT.md
+
+#################
+### Travis CI ###
+#################
+.travis.yml

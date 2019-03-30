@@ -4,12 +4,18 @@
   "description": "CSS & JavaScript library for designing simple but effective websites. A collection mainly dominated by Font Awesome, Google Fonts and Bootstrap Grid.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"No test specified\""
+    "build": "lessc src/style.less dist/style.css"
+  },
+  "devDependencies": {
+    "less": "latest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/klauke-enterprises/antonia.git"
   },
+  "files": [
+    "dist/"
+  ],
   "keywords": [
     "fontawesome",
     "googlefonts",
