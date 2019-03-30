@@ -1,5 +1,5 @@
 {
-  "name": "antonia",
+  "name": "@klauke-enterprises/antonia",
   "version": "1.0.0",
   "description": "CSS & JavaScript library for designing simple but effective websites. A collection mainly dominated by Font Awesome, Google Fonts and Bootstrap Grid.",
   "main": "index.js",
