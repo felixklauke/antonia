@@ -9,5 +9,6 @@ deploy:
   api_key:
     secure: hPnZ6Kmp81MyOZpTnE2q7jz2pBJrA2onfX2Yvk7rJ4LGIgp945okBT/YjemujNFH97l2FvLlp+nURvvQwq7egt7+KqiZGzQ2B6Iby8qeLDtU0WGNHLSb9ALyPu88FssiOcQxEnfD3vXnx5aX6rI8/pKAjgT4y1x7XjEe/fZgIWRZ0UZvPpm+seunw+XIrzC67vidH5aCkNXiQcLZWsWvHPh9fI3JhyYqkR4/ZRP0dqT2MJapp/4Jt47GW/QSbjc/mFF88e53DIhtIhKLdUkKcESeBnrJGiZxbPbTY/OYLhcBaq6U+jhihA0aWwTT2cbQZ98634NxBhwFZKUsmPJ7XhZ+1zVMHhmx/9SvLqU6BryEZohzKTGBI4NHssWyOnFmKvq26doN4fRvqiGkMF83UQ3I7gsb8XHomiA8txqWxBbx8Y6eoxl2Knno+r+JCWUMmZLI6MyUEI5s/Auk9xUSiBdCt+LnJXx0gd3+qBKOECsT7g1KELSmhVr1y45EU+svxdGH69INGAFwKRtcsL/+9Wbs14aXzueUYuB5d/CVFyRmihk2rRdtQrwdJvwdXrcZxyoiMmf6OvRd3KdiTK21xIy4oHmkmvVgu8RUWrFFx7UeCLNu70stK+mcOH949mEiHIPSX+yHl+k8xiwx6VLk0iZQqalUkyQ27gTNykeRJGo=
   on:
+    branch: master
     tags: true
     repo: klauke-enterprises/antonia
