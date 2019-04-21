@@ -14,6 +14,8 @@ lessc src/style.less dist/style.css
 ### Copy mix files ###
 ######################
 mkdir dist/components
+mkdir dist/util
+
 cp -R src/components/* dist/components/
 
 cp src/vars.less dist/util/vars.less
