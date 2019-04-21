@@ -4,7 +4,7 @@
   "description": "CSS & JavaScript library for designing simple but effective websites. A collection mainly dominated by Font Awesome, Google Fonts and Bootstrap Grid.",
   "main": "index.js",
   "scripts": {
-    "build": "lessc src/style.less dist/style.css"
+    "build": "bash build/buildPackage.sh"
   },
   "devDependencies": {
     "less": "latest"
