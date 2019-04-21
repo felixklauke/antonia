@@ -15,3 +15,5 @@ lessc src/style.less dist/style.css
 ######################
 mkdir dist/components
 cp -R src/components/* dist/components/
+
+cp src/vars dist/util/vars.less

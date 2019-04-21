@@ -14,7 +14,9 @@
     "url": "git+https://github.com/klauke-enterprises/antonia.git"
   },
   "files": [
-    "dist/style.css"
+    "dist/style.css",
+    "dist/components/buttons.less",
+    "dist/util/vars.less"
   ],
   "keywords": [
     "fontawesome",
