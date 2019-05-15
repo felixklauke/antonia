@@ -10,6 +10,7 @@ rm -rf dist
 ################################
 lessc src/style.less dist/style.css
 lessc src/components/navigation.less dist/components/navigation.css
+lessc src/components/footer.less dist/components/footer.css
 
 ######################
 ### Copy mix files ###
