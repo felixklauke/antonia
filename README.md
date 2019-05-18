@@ -9,6 +9,67 @@ CSS &amp; JavaScript library for designing simple but effective websites. A coll
 
 # Examples
 
+### Header
+```html
+<header>
+
+    <div class="contact-header">
+        <!-- FlexBox container -->
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-md-6 col-sm-12">
+                    <div class="row">
+                        <p><i class="fas fa-phone"></i> <a href="#">+49 000000000</a></p>
+                        <p><i class="fas fa-envelope"></i> <a href="#m">info@example.com</a> </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-12">
+                    <div class="contact-cta">
+
+                        <a href="#"></a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <nav class="navbar">
+
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="navbar-brand">
+                    <a href="/">
+
+                        <img src="#" alt="Logo">
+
+                    </a>
+                </div>
+
+                <div class="navbar-toggle">
+                    <i class="fa fa-2x fa-bars"></i>
+                </div>
+
+                <ul class="navbar-nav" id="navbarContent">
+                    <li class="navbar-item">
+                        <a href="#">Seite 1</a>
+                    </li>
+                    
+                    <li class="navbar-item">
+                        <a href="#">Seite 1</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+</header>
+```
+
 ### Footer
 ```html
 <footer>
