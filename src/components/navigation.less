@@ -1,65 +1,68 @@
 // Variables
 @import "../vars";
 
-.navbar {
+header {
 
-  padding: 20px 0;
-  background-color: @color-white-smoke;
+  .navbar {
 
-  .navbar-toggle {
+    padding: 20px 0;
+    background-color: @color-white-smoke;
 
-    cursor: pointer;
-    display: none;
-    margin-left: auto;
-    margin-right: 20px;
+    .navbar-toggle {
 
-    @media only screen and (max-width: @sm-max) {
-      display: flex;
-    }
-  }
-
-  .navbar-brand {
-
-    img {
-      width: 200px;
-    }
-  }
-
-  .navbar-nav {
-
-    margin-left: auto;
-    list-style: none;
-    padding: 0;
-
-    @media only screen and (max-width: @sm-max) {
+      cursor: pointer;
       display: none;
-      flex-basis: 100%;
-      flex-direction: column;
-    }
-
-    li {
-      display: inline-block;
+      margin-left: auto;
+      margin-right: 20px;
 
       @media only screen and (max-width: @sm-max) {
         display: flex;
-        justify-content: center;
+      }
+    }
+
+    .navbar-brand {
+
+      img {
+        width: 200px;
+      }
+    }
+
+    .navbar-nav {
+
+      margin-left: auto;
+      list-style: none;
+      padding: 0;
+
+      @media only screen and (max-width: @sm-max) {
+        display: none;
+        flex-basis: 100%;
+        flex-direction: column;
       }
 
-      a {
-        color: @color-gray;
-        font-size: larger;
-        padding: 15px;
-        transition: 0.6s;
-        border-radius: 4px;
+      li {
+        display: inline-block;
 
-        &:hover {
-          background-color: @color-white;
-          transition: 0.6s;
+        @media only screen and (max-width: @sm-max) {
+          display: flex;
+          justify-content: center;
         }
-      }
 
-      a.active {
-        box-shadow: 0 0.2rem 2rem 0.2rem rgba(0, 0, 0, .15);
+        a {
+          color: @color-gray;
+          font-size: larger;
+          padding: 15px;
+          transition: 0.6s;
+          border-radius: 4px;
+
+          &:hover {
+            background-color: @color-white;
+            transition: 0.6s;
+          }
+        }
+
+        a.active {
+          box-shadow: 0 0.2rem 2rem 0.2rem rgba(0, 0, 0, .15);
+        }
       }
     }
   }

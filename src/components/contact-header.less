@@ -1,0 +1,38 @@
+// Variables
+@import "../vars";
+
+header {
+  .contact-header {
+
+    padding: 14px 0;
+
+    background-color: @color-gray;
+    color: @color-white-smoke;
+
+    @media only screen and (max-width: @sm-max) {
+      text-align: center;
+    }
+
+    p {
+      margin-right: 14px;
+
+      a {
+        color: @color-white-smoke;
+      }
+    }
+
+    .contact-cta {
+
+      @media only screen and (max-width: @sm-max) {
+        display: none;
+      }
+
+      text-align: right;
+      margin: 10px 0 10px auto;
+
+      a {
+        white-space: nowrap;
+      }
+    }
+  }
+}
