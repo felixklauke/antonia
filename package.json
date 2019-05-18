@@ -1,6 +1,6 @@
 {
   "name": "@klauke-enterprises/antonia",
-  "version": "1.9.0",
+  "version": "2.0.0",
   "description": "CSS & JavaScript library for designing simple but effective websites. A collection mainly dominated by Font Awesome, Google Fonts and Bootstrap Grid.",
   "main": "index.js",
   "scripts": {
@@ -18,6 +18,9 @@
     "dist/components/buttons.less",
     "dist/components/navigation.less",
     "dist/components/footer.less",
+    "dist/components/buttons.css",
+    "dist/components/navigation.css",
+    "dist/components/footer.css",
     "dist/util/vars.less"
   ],
   "keywords": [
