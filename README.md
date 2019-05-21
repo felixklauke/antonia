@@ -7,12 +7,14 @@ CSS &amp; JavaScript library for designing simple but effective websites. A coll
 | Master      | [![Build Status](https://travis-ci.org/klauke-enterprises/antonia.svg?branch=master)](https://travis-ci.org/klauke-enterprises/antonia) |
 | Development | [![Build Status](https://travis-ci.org/klauke-enterprises/antonia.svg?branch=dev)](https://travis-ci.org/klauke-enterprises/antonia)    |
 
-# Distribution via NPM
+# Distribution
+
+## Distribution via NPM
 All major content of this project is distributed via NPM. You can find the package here:
 
 [Antonia at npmjs.com](https://www.npmjs.com/package/@klauke-enterprises/antonia)
 
-# Distribution via CDN
+## Distribution via CDN
 All content of this project is also distributed via the Klauke Enterprises CDN endpoint.
 
 ## Antonia
