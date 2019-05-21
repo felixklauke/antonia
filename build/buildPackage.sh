@@ -16,7 +16,6 @@ lessc src/components/footer.less dist/components/footer.css
 ######################
 ### Copy mix files ###
 ######################
-mkdir dist/components
 mkdir dist/util
 mkdir dist/js
 
