@@ -104,18 +104,10 @@ _style.css:_
                         <h3>Seiten</h3>
 
                         <ul>
-                            <li>
-                                <a href="#">Seite 1</a>
-                            </li>
-                            {#<li>
-                                <a href="#">Seite 2</a>
-                            </li>#}
-                            <li>
-                                <a href="#">Seite 3</a>
-                            </li>
-                            {#<li>
-                                <a href="#">Seite 4</a>
-                            </li>#}
+                            <li><a href="#">Seite 1</a></li>
+                            <li><a href="#">Seite 2</a></li>
+                            <li><a href="#">Seite 3</a></li>
+                            <li><a href="#">Seite 4</a></li>
                         </ul>
                     </div>
                 </div>
@@ -139,15 +131,9 @@ _style.css:_
                         <h3>Rechtliches</h3>
 
                         <ul>
-                            <li>
-                                <a href="/legal/imprint">Impressum</a>
-                            </li>
-                            <li>
-                                <a href="/legal/privacy">Datenschutz</a>
-                            </li>
-                            <li>
-                                <a href="/contact">Kontakt</a>
-                            </li>
+                            <li><a href="/legal/imprint">Impressum</a></li>
+                            <li><a href="/legal/privacy">Datenschutz</a></li>
+                            <li><a href="/contact">Kontakt</a></li>
                         </ul>
                     </div>
                 </div>
